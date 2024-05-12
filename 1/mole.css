@@ -29,4 +29,11 @@ border-radius: 25px;
     /* all img tags inside tiles */
     width: 100px;
     height: 100px;
+
+    /*  so that the plant img are not dragable and highlightable  */
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
