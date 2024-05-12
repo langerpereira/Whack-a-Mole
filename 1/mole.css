@@ -25,6 +25,26 @@ border-radius: 25px;
      background-size: cover;
 }
 
+#restart-btn {
+    background-color: #156518; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#restart-btn:hover {
+    background-color: #032e05; /* Darker Green */
+}
+
+
+
 #board div img {
     /* all img tags inside tiles */
     width: 100px;
@@ -37,3 +57,4 @@ border-radius: 25px;
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+
